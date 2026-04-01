@@ -175,7 +175,7 @@ body {
   display: block;
 }
 
-.btn--primary:hover  { opacity: 0.9; }
+.btn--primary:hover { opacity: 0.9; }
 .btn--secondary:hover { background: rgba(255, 255, 255, 0.12); }
 
 /* ── Footer ── */
@@ -197,6 +197,11 @@ body {
 /* ── Responsive ── */
 
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .hero__title {
     font-size: 36px;
   }
